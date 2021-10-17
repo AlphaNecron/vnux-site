@@ -71,6 +71,9 @@
     text-transform: uppercase;
     letter-spacing: 6px;
     color: #2E3440;
+    
+    padding-top: 1em;
+    padding-bottom: 1.4em;
 }
 
 
@@ -107,3 +110,5 @@
 .features img {
     border-radius: 8px;
 }
+
+/
