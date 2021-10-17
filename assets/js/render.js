@@ -39,6 +39,11 @@ var headerContent = `
 
 var footerContent = `
     
+<footer class="footer bg-dark shadow-lg">
+<div >
+    <p>Copyright &copy; <a href="https://gitlab.com/vnux">VNux</a> 2021. All rights reserved.</p>
+</div>
+</footer>
 `;
 
 
