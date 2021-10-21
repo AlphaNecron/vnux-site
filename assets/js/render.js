@@ -1,6 +1,6 @@
 var headerContent = `
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow-lg ">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="https://vnux.pages.dev">
             <img src="/assets/img/VNux-logo.svg" width="auto" height="30" class="d-inline-block align-top" alt="">
             VNux
         </a>
@@ -41,7 +41,7 @@ var footerContent = `
     
 <footer class="footer bg-dark shadow-lg">
 <div >
-    <p>Copyright &copy; <a href="https://gitlab.com/vnux">VNux</a> 2021. All rights reserved.</p>
+    <p>Đây là thanh dươi, chưa có gì hết :V</p>
 </div>
 </footer>
 `;
