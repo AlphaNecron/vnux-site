@@ -18,7 +18,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.6.0/font/bootstrap-icons.min.css" integrity="sha512-7w04XesEFaoeeKX0oxkwayDboZB/+AKNF5IUE50fCUDUywLvDN4gv2513TLQS+RDenAeHEK3O40jZZVrkpnWWw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.6.0/font/bootstrap-icons.min.css"
+        integrity="sha512-7w04XesEFaoeeKX0oxkwayDboZB/+AKNF5IUE50fCUDUywLvDN4gv2513TLQS+RDenAeHEK3O40jZZVrkpnWWw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <title>VNux GNU/Linux - HĐH bởi người Việt, cho người Việt</title>
     <!-- Favicon -->
@@ -26,89 +29,98 @@
 </head>
 
 <body>
+    <!-- Navbar -->
     <header id="header"></header>
-    <div class="vw-100 vh-100">
-        <img src="/assets/img/image_head.png" class="vw-100 vh-100 image_head" alt="VNux desktop">
-        <p class="display-1 text_head text-center">VNux GNU/Linux<br><span class="text_head2">Hệ điều hành bởi người Việt - cho
-                người Việt!</span><br><br> 
-                <button type="button" class="btn btn-outline-primary btn-lg">Tìm hiểu thêm</button>
+
+    <!-- Header -->
+    <div class="w-100 h-100 head">
+        <p class="display-1 text_head text-center">VNux GNU/Linux<br><span class="text_head2">Hệ điều hành bởi người
+                Việt - cho
+                người Việt!</span><br><br>
+            <button type="button" class="btn btn-outline-primary btn-lg">Tìm hiểu thêm</button>
         </p>
     </div>
 
-    <h2 class="feature container"><br>TÍNH NĂNG</h2>
-    <section id="features " class="features ">
+    <!-- Features -->
+    <div class="container">
+        <h2 class="feature"><br>TÍNH NĂNG</h2>
+        <section id="features " class="features ">
 
-        <div class="container ">
+            <div class="container ">
 
-            <header class="section-header ">
-                <h2></h2>
-                <p></p>
-            </header>
+                <header class="section-header ">
+                    <h2></h2>
+                    <p></p>
+                </header>
 
-            <div class="row ">
+                <div class="row ">
 
-                <div class="col-lg-6 ">
-                    <img src="assets/img/features.png " class="img-fluid" alt=" ">
-                </div>
-
-                <div class="col-lg-6 mt-5 mt-lg-0 d-flex ">
-                    <div class="row align-self-center gy-4 ">
-
-                        <div class="col-md-6 " >
-                            <div class="feature-box d-flex align-items-center ">
-                                <i class="bi bi-check "></i>
-                                <h3>Dựa trên Arch Linux nên luôn có phiên bản mới nhất của phần mềm</h3>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6 " >
-                            <div class="feature-box d-flex align-items-center ">
-                                <i class="bi bi-check "></i>
-                                <h3>Tích hợp Chaotic AUR, VNux_repo và flatpak, giúp người dùng có nhiều phần mềm hơn</h3>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6 " >
-                            <div class="feature-box d-flex align-items-center ">
-                                <i class="bi bi-check "></i>
-                                <h3>Nhẹ và nhanh</h3>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6 " >
-                            <div class="feature-box d-flex align-items-center ">
-                                <i class="bi bi-check "></i>
-                                <h3>Ổn định do dùng kernel linux-lts</h3>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6 " >
-                            <div class="feature-box d-flex align-items-center ">
-                                <i class="bi bi-check "></i>
-                                <h3>Sao lưu hệ thống timeshift khôi phục được từ GRUB giúp máy ổn định hơn</h3>
-                            </div>
-                        </div>
-
-                        <div class="col-md-6 " >
-                            <div class="feature-box d-flex align-items-center ">
-                                <i class="bi bi-check "></i>
-				<h3>Có bộ gõ Tiếng Việt ibus-bamboo tích hợp sẵn cho người Việt</h3>
-                            </div>
-                        </div>
-
+                    <div class="col-lg-6 ">
+                        <img src="assets/img/features.png " class="img-fluid" alt=" ">
                     </div>
-                </div>
 
+                    <div class="col-lg-6 mt-5 mt-lg-0 d-flex ">
+                        <div class="row align-self-center gy-4 ">
+
+                            <div class="col-md-6 ">
+                                <div class="feature-box d-flex align-items-center ">
+                                    <i class="bi bi-check "></i>
+                                    <h3>Dựa trên Arch Linux nên luôn có phiên bản mới nhất của phần mềm</h3>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 ">
+                                <div class="feature-box d-flex align-items-center ">
+                                    <i class="bi bi-check "></i>
+                                    <h3>Tích hợp Chaotic AUR, VNux_repo và flatpak, giúp người dùng có nhiều phần mềm
+                                        hơn</h3>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 ">
+                                <div class="feature-box d-flex align-items-center ">
+                                    <i class="bi bi-check "></i>
+                                    <h3>Nhẹ và nhanh</h3>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 ">
+                                <div class="feature-box d-flex align-items-center ">
+                                    <i class="bi bi-check "></i>
+                                    <h3>Ổn định do dùng kernel linux-lts</h3>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 ">
+                                <div class="feature-box d-flex align-items-center ">
+                                    <i class="bi bi-check "></i>
+                                    <h3>Sao lưu hệ thống timeshift khôi phục được từ GRUB giúp máy ổn định hơn</h3>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 ">
+                                <div class="feature-box d-flex align-items-center ">
+                                    <i class="bi bi-check "></i>
+                                    <h3>Có bộ gõ Tiếng Việt ibus-bamboo tích hợp sẵn cho người Việt</h3>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
             </div>
             <!-- / row -->
-<br><br>
-            <footer id = "footer"></footer>
+            <br><br>
 
-    <script src="/assets/js/render.js"></script>
+            <!-- Footer -->
+            <footer id="footer"></footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+            <script src="/assets/js/render.js"></script>
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+                crossorigin="anonymous"></script>
 
 </body>
 
