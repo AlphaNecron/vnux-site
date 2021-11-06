@@ -41,7 +41,10 @@ var footerContent = `
     
 <footer class="footer bg-dark shadow-lg">
 <div >
-    <p>Đây là thanh dươi, chưa có gì hết :V</p>
+    <p>
+    Cảm ơn bạn đã chọn và sử dụng VNux GNU/Linux, chúng tôi mong rằng bạn thích nó nhiều như chúng tôi thích làm VNux.
+    Linux® là nhãn hiệu đã đăng ký của Linus Torvalds ở Hoa Kỳ và các quốc gia khác.
+    </p>
 </div>
 </footer>
 `;

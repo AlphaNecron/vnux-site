@@ -1,4 +1,4 @@
 # vnux-site
 
-Mã nguồn của trang web VNux
+Mã nguồn trang web của VNux GNU/Linux
  
