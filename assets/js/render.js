@@ -1,8 +1,8 @@
 var headerContent = `
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow-lg ">
         <a class="navbar-brand" href="https://vnux.pages.dev">
-            <img src="/assets/img/VNux-logo.svg" width="auto" height="30" class="d-inline-block align-top" alt="">
-            VNux
+            <img src="assets/img/VNux-logo.svg" width="auto" height="30" class="d-inline-block align-top" alt="VNux-logo.svg">
+            VNux GNU/Linux
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,7 +42,7 @@ var footerContent = `
 <footer class="footer bg-dark shadow-lg">
 <div >
     <p>
-    Cảm ơn bạn đã chọn và sử dụng VNux GNU/Linux, chúng tôi mong rằng bạn thích nó nhiều như chúng tôi thích làm VNux.
+    Cảm ơn bạn đã chọn và sử dụng VNux GNU/Linux, chúng tôi mong rằng bạn thích nó nhiều như chúng tôi thích làm VNux. <br>
     Linux® là nhãn hiệu đã đăng ký của Linus Torvalds ở Hoa Kỳ và các quốc gia khác.
     </p>
 </div>
