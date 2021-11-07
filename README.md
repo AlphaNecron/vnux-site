@@ -1,4 +1,3 @@
-# vnux-site
+# spaghetti code
 
-Mã nguồn trang web của VNux GNU/Linux
- 
+## những gì nguyenntdev làm là những thứ "rác" nhất thế giới, chỉ có code của th1nhhdk mới là code thượng đẳng, css internal, js có liên quan đến css
