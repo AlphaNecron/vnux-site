@@ -32,15 +32,17 @@
 }
 
 /* Head */
-.image_head {
-    filter: brightness(30%);
-    position: absolute;
+.head {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/assets/img/image_head.png'); 
+    /* For some reason this fixed image_head.png not showing up*/
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 
 .text_head {
     font-size: 5em;
     padding: 20%;
-    padding-bottom: 0px;
+    padding-bottom: 20%;
     color: white;
     position: relative;
     text-align: center;
