@@ -33,7 +33,7 @@
 
 /* Head */
 .head {
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/assets/img/image_head.png');
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('assets/img/image_head.png');
     background-repeat: no-repeat;
     background-size:cover;
 }
