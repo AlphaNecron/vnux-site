@@ -1,1 +1,3 @@
-# Đừng fork từ đây, read-only mirror of https://github.com/th1nhhdk/vnux-site
+# vnux-site
+
+Mã nguồn trang web của VNux GNU/Linux
