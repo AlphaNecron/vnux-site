@@ -40,10 +40,11 @@ var headerContent = `
 var footerContent = `
     
 <footer class="footer bg-dark shadow-lg">
-<div >
+<div>
     <p>
     Cảm ơn bạn đã chọn và sử dụng VNux GNU/Linux, chúng tôi mong rằng bạn thích nó nhiều như chúng tôi thích làm VNux. <br>
-    Linux® là nhãn hiệu đã đăng ký của Linus Torvalds ở Hoa Kỳ và các quốc gia khác.
+    Nếu bạn có thắc mắc hay gặp các lỗi bug nào đó hãy báo về cho chúng tôi tại
+    <a href="https://github.com/kodestudio/vnux-site/issues">đây</a>
     </p>
 </div>
 </footer>
