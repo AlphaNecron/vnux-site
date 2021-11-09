@@ -1,7 +1,7 @@
 var headerContent = `
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow-lg ">
         <a class="navbar-brand" href="https://vnux.pages.dev">
-            <img src="assets/img/VNux-logo.svg" width="auto" height="30" class="d-inline-block align-top" alt="VNux-logo.svg">
+            <img src="https://vnuxlinux.pages.dev/assets/img/VNux-logo.svg" width="auto" height="30" class="d-inline-block align-top" alt="VNux-logo.svg">
             VNux GNU/Linux
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"

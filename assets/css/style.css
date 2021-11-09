@@ -31,13 +31,6 @@
     margin-right: 1em;
 }
 
-/* Head */
-.head {
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('/assets/img/image_head.png'); 
-    /* For some reason this fixed image_head.png not showing up*/
-    background-repeat: no-repeat;
-    background-size:cover;
-}
 
 .text_head {
     font-size: 5em;
